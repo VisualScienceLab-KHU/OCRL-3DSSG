@@ -63,7 +63,7 @@
           {% if page.affiliations %}
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <sup>1</sup>{{ page.affiliations }}
+              {{ page.affiliations }}
             </span>
           </div>
           {% endif %}
@@ -80,11 +80,24 @@
 
           <div class="column has-text-centered">
             <div class="publication-links">
-              <!-- PDF Link. -->
+              <!-- ArXiv -->
+              {% if page.arxiv %}
+              <span class="link-block">
+                <a href="{{ page.arxiv }}"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-book-open"></i>
+                  </span>
+                  <span>ArXiv</span>
+                </a>
+              </span>
+              {% endif %}
+
+              <!-- Paper -->
               {% if page.paper %}
               <span class="link-block">
                 <a href="{{ page.paper }}"
-                   class="external-link button is-normal is-rounded is-dark">
+                  class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                   </span>
@@ -92,50 +105,16 @@
                 </a>
               </span>
               {% endif %}
-              <!-- Video Link. -->
-              {% if page.video %}
+
+              <!-- Code -->
+              {% if page.code %}
               <span class="link-block">
-                <a href="{{ page.video }}"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span>
-              {% endif %}
-              <!-- Code Link. -->
-              {% if page.main_code %}
-              <span class="link-block">
-                <a href="{{ page.main_code }}"
-                   class="external-link button is-normal is-rounded is-dark">
+                <a href="{{ page.code }}"
+                  class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
-                  <span>Scene Graph Code</span>
-                  </a>
-              </span>
-              {% endif %}
-              {% if page.obj_code %}
-              <span class="link-block">
-                <a href="{{ page.obj_code }}"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-github"></i>
-                  </span>
-                  <span>Object Encoder Code</span>
-                  </a>
-              </span>
-              {% endif %}
-              <!-- Checkpoint Link. -->
-              {% if page.checkpoints %}
-              <span class="link-block">
-                <a href="{{ page.checkpoints }}"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fas fa-database"></i>
-                  </span>
-                  <span>Checkpoint</span>
+                  <span>Code</span>
                 </a>
               </span>
               {% endif %}

@@ -5,10 +5,9 @@ permalink: /
 title: Object-Centric Representation Learning for Enhanced 3D Scene Graph Prediction 
 affiliations:
     Kyung Hee University 
-paper: https://openreview.net/forum?id=LjmXrUsSrg
-main_code: https://github.com/VSLab-3D-Team/bfeat_vlsat/tree/ours_code
-obj_code: https://github.com/VSLab-3D-Team/bfeat_3dssg
-checkpoints: https://huggingface.co/docs/datasets
+arxiv: https://openreview.net/forum?id=LjmXrUsSrg        # 추후 수정
+paper: https://openreview.net/forum?id=LjmXrUsSrg        # 추후 수정
+code: https://github.com/VSLab-3D-Team/bfeat_vlsat/tree/ours_code   # 추후 수정
 ---
 
 ![Figure1](/static/image/figure1_fix.png)
