@@ -7,7 +7,7 @@ affiliations:
     Kyung Hee University 
 arxiv: https://openreview.net/forum?id=LjmXrUsSrg        # 추후 수정
 paper: https://openreview.net/forum?id=LjmXrUsSrg        # 추후 수정
-code: https://github.com/VSLab-3D-Team/bfeat_vlsat/tree/ours_code   # 추후 수정
+code: https://github.com/VisualScienceLab-KHU/OCRL-3DSSG-Codes 
 ---
 
 ![Figure1](/static/image/figure1_fix.png)
@@ -29,7 +29,7 @@ scores and more accurate object classifications. Consequently, relationship pred
 <div class="columns is-centered has-text-centered">
     <div class="column is-four-fifths">
     <h2 class="title is-3">Video (To be updated)</h2>
-    <div class="publication-video">
+    <div class="publication-video"> <!-- 추후 수정 -->
         <iframe width="560" height="315" src="https://www.youtube.com/embed/uOcGY30gyWo?si=kHtYxoPXDGX9fHxK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     </div>
