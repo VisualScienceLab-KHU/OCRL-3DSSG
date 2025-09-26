@@ -28,9 +28,9 @@ scores and more accurate object classifications. Consequently, relationship pred
 
 <div class="columns is-centered has-text-centered">
     <div class="column is-four-fifths">
-    <h2 class="title is-3">Video (나중에 대체)</h2>
+    <h2 class="title is-3">Video (To be updated)</h2>
     <div class="publication-video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/uOcGY30gyWo?si=kHtYxoPXDGX9fHxK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=In2DISyMTnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     </div>
 </div>
@@ -81,8 +81,8 @@ We visualize the learned object embedding space using t-SNE for the ten most fre
 
 <br>
 
-## Citation (To Update)
-```
+## Citation (To be Updated)
+<!-- ```
 @article{turing1936computable,
   title={On computable numbers, with an application to the Entscheidungsproblem},
   author={Turing, Alan Mathison},
@@ -92,4 +92,4 @@ We visualize the learned object embedding space using t-SNE for the ten most fre
   pages={5},
   year={1936}
 }
-```
+``` -->
