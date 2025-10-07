@@ -5,8 +5,8 @@ permalink: /
 title: Object-Centric Representation Learning for Enhanced 3D Scene Graph Prediction 
 affiliations:
     Kyung Hee University 
-arxiv: https://openreview.net/forum?id=LjmXrUsSrg        # 추후 수정
-paper: https://openreview.net/forum?id=LjmXrUsSrg        # 추후 수정
+arxiv: https://arxiv.org/pdf/2510.04714
+paper: https://openreview.net/pdf?id=LjmXrUsSrg       # 추후 수정
 code: https://github.com/VisualScienceLab-KHU/OCRL-3DSSG-Codes 
 ---
 
