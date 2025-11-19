@@ -6,7 +6,7 @@ title: Object-Centric Representation Learning for Enhanced 3D Scene Graph Predic
 affiliations:
     Kyung Hee University 
 arxiv: https://arxiv.org/pdf/2510.04714
-paper: https://openreview.net/pdf?id=LjmXrUsSrg       # 추후 수정
+paper: https://openreview.net/pdf?id=LjmXrUsSrg
 code: https://github.com/VisualScienceLab-KHU/OCRL-3DSSG-Codes 
 ---
 
@@ -23,15 +23,6 @@ scores and more accurate object classifications. Consequently, relationship pred
         <div class="content has-text-justified">
 3D Semantic Scene Graph Prediction aims to detect objects and their semantic relationships in 3D scenes, and has emerged as a crucial technology for robotics and AR/VR applications. While previous research has addressed dataset limitations and explored various approaches including Open-Vocabulary settings, they frequently fail to optimize the representational capacity of object and relationship features, showing excessive reliance on Graph Neural Networks despite insufficient discriminative capability. In this work, we demonstrate through extensive analysis that the quality of object features plays a critical role in determining overall scene graph accuracy. To address this challenge, we design a highly discriminative object feature encoder and employ a contrastive pretraining strategy that decouples object representation learning from the scene graph prediction. This design not only enhances object classification accuracy but also yields direct improvements in relationship prediction. Notably, when plugging in our pretrained encoder into existing frameworks, we observe substantial performance improvements across all evaluation metrics. Additionally, whereas existing approaches have not fully exploited the integration of relationship information, we effectively combine both geometric and semantic features to achieve superior relationship prediction. Comprehensive experiments on the 3DSSG dataset demonstrate that our approach significantly <b>outperforms previous state-of-the-art methods</b>.
         </div>
-    </div>
-</div>
-
-<div class="columns is-centered has-text-centered">
-    <div class="column is-four-fifths">
-    <h2 class="title is-3">Video (To be updated)</h2>
-    <div class="publication-video"> <!-- 추후 수정 -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/uOcGY30gyWo?si=kHtYxoPXDGX9fHxK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
     </div>
 </div>
 
@@ -82,14 +73,11 @@ We visualize the learned object embedding space using t-SNE for the ten most fre
 <br>
 
 ## Citation (To be Updated)
-<!-- ```
-@article{turing1936computable,
-  title={On computable numbers, with an application to the Entscheidungsproblem},
-  author={Turing, Alan Mathison},
-  journal={Journal of Mathematics},
-  volume={58},
-  number={345-363},
-  pages={5},
-  year={1936}
+```
+@article{heo2025object,
+  title={Object-Centric Representation Learning for Enhanced 3D Scene Graph Prediction},
+  author={Heo, KunHo and Kim, GiHyun and Kim, SuYeon and Cho, MyeongAh},
+  journal={arXiv preprint arXiv:2510.04714},
+  year={2025}
 }
-``` -->
+```
