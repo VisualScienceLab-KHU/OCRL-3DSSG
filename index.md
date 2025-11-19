@@ -72,7 +72,7 @@ We visualize the learned object embedding space using t-SNE for the ten most fre
 
 <br>
 
-## Citation (To be Updated)
+## Citation
 ```
 @article{heo2025object,
   title={Object-Centric Representation Learning for Enhanced 3D Scene Graph Prediction},
