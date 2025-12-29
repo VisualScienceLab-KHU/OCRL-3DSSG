@@ -10,8 +10,8 @@ paper: https://openreview.net/pdf?id=LjmXrUsSrg
 code: https://github.com/VisualScienceLab-KHU/OCRL-3DSSG-Codes 
 ---
 
-![Figure1](/static/image/figure1_fix.png)
-*TD;LR: We observe that the primary bottleneck in 3D semantic scene graph prediction lies in object representation, which directly impacts the accuracy of predicate reasoning. (a) Baseline(VL-SAT) embeds object features non-discriminatively, leading to low-confidence
+![Figure1](/static/image/figure1.png)
+*TD;LR: We observe that the primary bottleneck in 3D semantic scene graph prediction lies in object representation, which directly impacts the accuracy of predicate reasoning. (a) Baseline (VL-SAT) embeds object features non-discriminatively, leading to low-confidence
 predictions and frequent object misclassifications, which degrade relationship accuracy. In contrast,
 (b) our method embeds object features in a more discriminative manner, yielding high confidence
 scores and more accurate object classifications. Consequently, relationship predictions are significantly improved, resulting in a more coherent and semantically accurate scene graph.*
@@ -43,12 +43,12 @@ scores and more accurate object classifications. Consequently, relationship pred
 
 ![Object Encoder Pretrain](/static/image/figure2.png)
 
-*Architecture of first stage(object encoder pretraining): The encoder extracts object embedding from point clouds via affine transformation, aligned with text/visual CLIP features*
+Architecture of first stage (object encoder pretraining): The encoder extracts object embedding from point clouds via affine transformation, aligned with text/visual CLIP features
 
 ![Scene Graph Prediction](/static/image/figure4.png)
 
 
-*Architecture of second stage(3D semantic scene graph prediction): Object features are refined via Global Spatial Enhancement to incorporate global spatial context based on inter-object distances, producing enhanced features. Simultaneously, the Local Spatial Enhancement locally preserves geometric relationships between object pairs. The Bidirectional Gated Graph Attention Network then selectively modulates the information of reverse edges, effectively capturing asymmetric relationships between objects*
+Architecture of second stage (3D semantic scene graph prediction): Object features are refined via Global Spatial Enhancement to incorporate global spatial context based on inter-object distances, producing enhanced features. Simultaneously, the Local Spatial Enhancement locally preserves geometric relationships between object pairs. The Bidirectional Gated Graph Attention Network then selectively modulates the information of reverse edges, effectively capturing asymmetric relationships between objects
 
 
 <br>
@@ -58,7 +58,7 @@ scores and more accurate object classifications. Consequently, relationship pred
 
 ![Qualitative Research](/static/image/figure5.png)
 
-Qualitative comparison between baseline(VL-SAT) and ours: VL-SAT frequently misclassifies visually similar but semantically distinct objects such as cabinet and chair, or stool and garbage bin, which leads to erroneous relationship predictions. In contrast, our method correctly identifies object categories, thereby facilitating accurate and consistent relationship prediction
+Qualitative comparison between baseline (VL-SAT) and ours: VL-SAT frequently misclassifies visually similar but semantically distinct objects such as cabinet and chair, or stool and garbage bin, which leads to erroneous relationship predictions. In contrast, our method correctly identifies object categories, thereby facilitating accurate and consistent relationship prediction
 
 <br>
 
@@ -68,7 +68,7 @@ Qualitative comparison between baseline(VL-SAT) and ours: VL-SAT frequently misc
   <img src="./static/image/figure6.png" width="80%" alt="figure6">
 </div>
 
-We visualize the learned object embedding space using t-SNE for the ten most frequent object categories in the dataset. Compared to baseline(VL-SAT), our approach yields more compact and well-separated clusters, particularly for structurally similar object pairs such as *ceiling–floor*, *wall–door*, and *curtain–window*. These results suggest that our object encoder learns more discriminative features, which provide a semantically stronger foundation for subsequent relationship classification
+We visualize the learned object embedding space using t-SNE for the ten most frequent object categories in the dataset. Compared to (a) baseline(VL-SAT), (b) our approach yields more compact and well-separated clusters, particularly for structurally similar object pairs such as *ceiling–floor*, *wall–door*, and *curtain–window*. These results suggest that our object encoder learns more discriminative features, which provide a semantically stronger foundation for subsequent relationship classification
 
 <br>
 
