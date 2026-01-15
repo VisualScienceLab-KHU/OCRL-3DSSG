@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://visualsciencelab-khu.github.io/OCRL-3DSSG-project/">
+  <a href="https://visualsciencelab-khu.github.io/OCRL-3DSSG/">
     <img src="https://img.shields.io/badge/🌐%20Project%20Page-Visit-blue?style=for-the-badge">
   </a>
 </p>
