@@ -5,11 +5,9 @@
 </p>
 
 ## 🌌 OCRL-3DSSG Project Page
-This repository contains the project page for **"Object-Centric Representation Learning for Enhanced 3D Scene Graph Prediction"**.
+This repository contains the project page for **"Object-Centric Representation Learning for Enhanced 3D Semantic Scene Graph Prediction"**.
 
 ## Acknowledgement
 The website template is adapted from  
 **Nerfies: Deformable Neural Radiance Fields**  
 https://github.com/nerfies/nerfies.github.io
-
-
