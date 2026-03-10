@@ -2,7 +2,7 @@
 layout: project_page
 permalink: /
 
-title: Object-Centric Representation Learning for Enhanced 3D Semantic Scene Graph Prediction 
+title: "Object-Centric Representation Learning for<br>Enhanced 3D Semantic Scene Graph Prediction"
 affiliations:
     Kyung Hee University 
 arxiv: https://arxiv.org/pdf/2510.04714
