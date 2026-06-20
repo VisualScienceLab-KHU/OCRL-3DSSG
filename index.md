@@ -6,7 +6,7 @@ title: "Object-Centric Representation Learning for<br>Enhanced 3D Semantic Scene
 affiliations:
     Kyung Hee University 
 arxiv: https://arxiv.org/pdf/2510.04714
-paper: https://openreview.net/pdf?id=LjmXrUsSrg
+paper: https://proceedings.neurips.cc/paper_files/paper/2025/hash/605e02ae04cba1ebf6a08206299e76b9-Abstract-Conference.html
 code: https://github.com/VisualScienceLab-KHU/OCRL-3DSSG-Codes 
 ---
 
@@ -74,10 +74,12 @@ We visualize the learned object embedding space using t-SNE for the ten most fre
 
 ## Citation
 ```
-@article{heo2025object,
-  title={Object-Centric Representation Learning for Enhanced 3D Scene Graph Prediction},
+@article{heo2026object,
+  title={Object-centric representation learning for enhanced 3d semantic scene graph prediction},
   author={Heo, KunHo and Kim, GiHyun and Kim, SuYeon and Cho, MyeongAh},
-  journal={arXiv preprint arXiv:2510.04714},
-  year={2025}
+  journal={Advances in Neural Information Processing Systems},
+  volume={38},
+  pages={66654--66685},
+  year={2026}
 }
 ```
