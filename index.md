@@ -5,7 +5,7 @@ permalink: /
 title: "Object-Centric Representation Learning for<br>Enhanced 3D Semantic Scene Graph Prediction"
 affiliations:
     Kyung Hee University 
-arxiv: https://arxiv.org/pdf/2510.04714
+arxiv: https://arxiv.org/abs/2510.04714
 paper: https://proceedings.neurips.cc/paper_files/paper/2025/hash/605e02ae04cba1ebf6a08206299e76b9-Abstract-Conference.html
 code: https://github.com/VisualScienceLab-KHU/OCRL-3DSSG-Codes 
 ---
